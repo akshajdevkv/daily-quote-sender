@@ -24,4 +24,3 @@ def submit_data():
 
 	return redirect('/successful.html')
 
-# print(send_emails('akshajvaranacode404@gmail.com','danger197346'))
