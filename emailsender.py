@@ -4,8 +4,6 @@ import time
 from string import Template
 from email.message import EmailMessage
 
-email_address = 'akshajvaranacode404@gmail.com'
-email_password = 'danger197346'
 
 def send_emails(email_address,email_password):
     while True:
@@ -42,4 +40,3 @@ def send_emails(email_address,email_password):
                         daily_quote_num += 1
                 time.sleep(86400)
 
-print(send_emails(email_address,email_password))
