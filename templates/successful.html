@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Daily Quote Senders</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+<!--===============================================================================================-->
+
+	<link rel="stylesheet" type="text/css" href=" {{ url_for('static',filename='util.css') }}">
+	<link rel="shortcut icon" href="{{ url_for('static', filename='icons8-email-open-64.png') }}">
+	<link rel="stylesheet" type="text/css" href=" {{ url_for('static',filename='main.css') }}">
+<!--===============================================================================================-->
+</head>
+<body>
+
+
+	<div class="container-contact100">
+		<div class="wrap-contact100">
+			<form class="contact100-form validate-form">
+				<div class='gratitude-form'>
+					<span class="contact100-form-title">
+						<b>Thanks For Joining Our Mailing List , Soon You Will Get Our Inspirational Emails!</b>
+					</span>
+					
+				<img class="image-position" src="{{url_for('static',filename='icons8-mailbox-opened-flag-up-100.png')}}" alt="">
+				<img class='thankyou' src="{{url_for('static',filename='thankyou.jpg')}}" alt="">
+				</div>
+				
+		
+
+			</form>
+
+			<div class="contact100-more flex-col-c-m" style="background-image: url('./static/bg-01.jpg');">
+				<div class="flex-w size1 p-b-47">
+					<div class="txt1 p-r-25">
+						<span class="lnr lnr-map-marker"></span>
+					</div>
+
+					<div class="flex-col size2">
+						<span class="txt1 p-b-20">
+							About Me
+						</span>
+
+						<span class="txt2">
+							Hey,my name is Akshaj Dev and I created this mailing list
+						</span>
+					</div>
+				</div>
+
+				<div class="dis-flex size1 p-b-47">
+					<div class="txt1 p-r-25">
+						<span class="lnr lnr-phone-handset"></span>
+					</div>
+
+					<div class="flex-col size2">
+						<span class="txt1 p-b-20">
+							Why Join this Mailing List ?
+						</span>
+
+						<span class="txt3">
+							By joining our mailing list you will get  inspirational quotes (twice a week) on your email inbox!
+						</span>
+					</div>
+				</div>
+
+				<div class="dis-flex size1 p-b-47">
+					<div class="txt1 p-r-25">
+						<span class="lnr lnr-envelope"></span>
+					</div>
+
+					<div class="flex-col size2">
+						<span class="txt1 p-b-20">
+							Report a Bug
+						</span>
+
+						<span class="txt3">
+							akshajtechtips@gmail.com
+						</span>
+					</div>
+				</div>
+				<div class="dis-flex size1 p-b-47">
+					<div class="txt1 p-r-25">
+						<span class="lnr lnr-envelope"></span>
+					</div>
+
+					<div class="flex-col size2">
+						<span class="txt1 p-b-20">
+							Follow Me:
+						</span>
+
+						<span class="txt3">
+							<a target="_blank" href="https://www.instagram.com/Akshaj_tech_tips/"><img class='instagram'src="./static/2111463.svg"></a><a target="_blank" href="https://www.youtube.com/channel/UCps4c2GJSnlrSlayF8cx7aQ"><img class='youtube'src="./static/youtube-logo-png-46031(1).png"></a><a target="_blank" href="https://www.facebook.com/akshajtechtips"><img class='facebook'src="./static/174848.svg"></a><a target="_blank" href="https://www.twitter.com/akshajtechtips"><img class='facebook'src="./static/twitter.svg"></a>						
+						</span>
+						
+					</div>
+					
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+
+	<div id="dropDownSelect1"></div>
+
+
+<!--===============================================================================================-->
+	<script src="{{ url_for('static',filename='main.js') }}"></script>
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-23581568-13"></script>
+	<script>
+	  window.dataLayer = window.dataLayer || [];
+	  function gtag(){dataLayer.push(arguments);}
+	  gtag('js', new Date());
+
+	  gtag('config', 'UA-23581568-13');
+	</script>
+</body>
+</html>
